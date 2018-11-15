@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [Window1.xaml](./CS/CreateDocumentGroup/Window1.xaml) (VB: [Window1.xaml](./VB/CreateDocumentGroup/Window1.xaml))
+* [Window1.xaml.cs](./CS/CreateDocumentGroup/Window1.xaml.cs) (VB: [Window1.xaml](./VB/CreateDocumentGroup/Window1.xaml))
+<!-- default file list end -->
 # How to create a DocumentGroup with two tabs
 
 
