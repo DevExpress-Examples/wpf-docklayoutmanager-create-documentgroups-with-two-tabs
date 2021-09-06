@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CreateDocumentGroup", "CreateDocumentGroup\CreateDocumentGroup.vbproj", "{B576D740-DCE6-4899-8B21-F868D3CF06C5}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateDocumentGroup", "CreateDocumentGroup\CreateDocumentGroup.Net5.csproj", "{B576D740-DCE6-4899-8B21-F868D3CF06C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
