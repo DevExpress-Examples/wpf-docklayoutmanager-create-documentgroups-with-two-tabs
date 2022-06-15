@@ -6,7 +6,10 @@
 
 # WPF Dock Layout Manager - Сreate a DocumentGroup with Two Tabs
 
-This example creates a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) with two tabs that contain [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects.
+This example creates a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) with two tabs that contain [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects - _Document1_ and _Document2_.
+
+![image](https://user-images.githubusercontent.com/12169834/173875380-1597a66d-d862-4728-a2df-0656f350ebd5.png)
+
 
 <!-- default file list -->
 ## Files to Look At:
@@ -22,3 +25,4 @@ This example creates a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpres
 - [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)
 - [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup)
 - [Create a Simple Layout of Dock Panels](https://docs.devexpress.com/WPF/6654/controls-and-libraries/layout-management/dock-windows/getting-started/how-to-create-a-simple-layout-of-dock-panes)
+- [Dock Layout Manager: Get Started](https://docs.devexpress.com/WPF/6820/controls-and-libraries/layout-management/dock-windows/getting-started/dock-layout-manager)
