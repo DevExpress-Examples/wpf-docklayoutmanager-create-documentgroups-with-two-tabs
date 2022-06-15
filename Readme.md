@@ -3,17 +3,22 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E1670)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
+
+# WPF Dock Layout Manager - Сreate a DocumentGroup with Two Tabs
+
+This example creates a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) with two tabs that contain [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects.
+
 <!-- default file list -->
-*Files to look at*:
+## Files to Look At:
 
-* **[Window1.xaml](./CS/CreateDocumentGroup/Window1.xaml) (VB: [Window1.xaml](./VB/CreateDocumentGroup/Window1.xaml))**
-* [Window1.xaml.cs](./CS/CreateDocumentGroup/Window1.xaml.cs) (VB: [Window1.xaml.vb](./VB/CreateDocumentGroup/Window1.xaml.vb))
+* [Window1.xaml](./CS/CreateDocumentGroup/Window1.xaml) (VB: [Window1.xaml](./VB/CreateDocumentGroup/Window1.xaml))
 <!-- default file list end -->
-# How to create a DocumentGroup with two tabs
 
 
-<p>This example shows how to create a <a href="https://documentation.devexpress.com/#WPF/CustomDocument6830">DocumentGroup</a> with two tabs, represented by <a href="https://documentation.devexpress.com/#WPF/clsDevExpressXpfDockingDocumentPaneltopic">DocumentPanel</a> objects.</p>
+## Documentation
 
-<br/>
-
-
+- [Dock UI Items](https://docs.devexpress.com/WPF/7209/controls-and-libraries/layout-management/dock-windows/dock-items)
+- [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup)
+- [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel)
+- [LayoutGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.LayoutGroup)
+- [Create a Simple Layout of Dock Panels](https://docs.devexpress.com/WPF/6654/controls-and-libraries/layout-management/dock-windows/getting-started/how-to-create-a-simple-layout-of-dock-panes)
