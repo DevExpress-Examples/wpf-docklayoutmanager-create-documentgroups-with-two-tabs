@@ -1,5 +1,5 @@
 <Window
-    x:Class="CreateTabbedAndDocumentGroups.Window1"
+    x:Class="CreateDocumentGroup.Window1"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:dxcore="http://schemas.devexpress.com/winfx/2008/xaml/core"
