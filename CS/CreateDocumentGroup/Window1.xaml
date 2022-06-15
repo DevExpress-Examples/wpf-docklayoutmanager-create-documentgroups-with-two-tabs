@@ -5,36 +5,25 @@
     xmlns:dxcore="http://schemas.devexpress.com/winfx/2008/xaml/core"
     xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
     Title="Window1"
-    Width="500"
-    Height="300">
+    Width="400"
+    Height="350">
     <Grid>
-        <dxdo:DockLayoutManager
-            Name="dockManager1"
-            dxcore:ThemeManager.ThemeName="Office2019Colorful">
-            <!--  Root group  -->
-            <dxdo:LayoutGroup x:Name="rootGroup" Orientation="Horizontal">
+        <dxdo:DockLayoutManager Name="dockManager1" Margin="12">
+            <dxdo:LayoutGroup x:Name="RootGroup" Orientation="Vertical">
                 <!--  region #1  -->
-                <!--  Create a Tabbed Group consisting of two tabs  -->
-                <dxdo:TabbedGroup SelectedTabIndex="1">
-                    <dxdo:LayoutPanel x:Name="paneOutput" Caption="Output">
-                        <RichTextBox />
-                    </dxdo:LayoutPanel>
-                    <dxdo:LayoutPanel x:Name="paneFindResults" Caption="Find Results">
-                        <RichTextBox />
-                    </dxdo:LayoutPanel>
-                </dxdo:TabbedGroup>
-                <!--  endregion #1  -->
-                <!--  region #2  -->
-                <!--  Create a Document Group containing two DocumentPanels  -->
-                <dxdo:DocumentGroup x:Name="documentGroup1" SelectedTabIndex="1">
-                    <dxdo:DocumentPanel Caption="Document 1">
+                <dxdo:DocumentGroup
+                    x:Name="documentGroup1"
+                    ItemHeight="2*"
+                    SelectedTabIndex="1">
+                    <dxdo:DocumentPanel x:Name="document1" Caption="Document 1">
                         <RichTextBox />
                     </dxdo:DocumentPanel>
-                    <dxdo:DocumentPanel Caption="Document 2">
+                    <dxdo:DocumentPanel x:Name="document2" Caption="Document 2">
                         <RichTextBox />
                     </dxdo:DocumentPanel>
                 </dxdo:DocumentGroup>
-                <!--  endregion #2  -->
+                <!--  endregion #1  -->
+                <dxdo:LayoutPanel x:Name="paneOutput" Caption="Output" />
             </dxdo:LayoutGroup>
         </dxdo:DockLayoutManager>
     </Grid>
