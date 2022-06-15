@@ -8,15 +8,13 @@
 
 This example creates a [DocumentGroup](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentGroup) with two tabs that contain [DocumentPanel](https://docs.devexpress.com/WPF/DevExpress.Xpf.Docking.DocumentPanel) objects - _Document1_ and _Document2_.
 
-![image](https://user-images.githubusercontent.com/12169834/173875380-1597a66d-d862-4728-a2df-0656f350ebd5.png)
-
+![image](https://user-images.githubusercontent.com/12169834/173877365-30206938-5a8d-41f4-97d1-0a820623905a.png)
 
 <!-- default file list -->
 ## Files to Look At:
 
 * [Window1.xaml](./CS/CreateDocumentGroup/Window1.xaml) (VB: [Window1.xaml](./VB/CreateDocumentGroup/Window1.xaml))
 <!-- default file list end -->
-
 
 ## Documentation
 
